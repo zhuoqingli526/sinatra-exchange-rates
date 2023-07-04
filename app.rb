@@ -1,4 +1,6 @@
 require 'sinatra'
+# we need to require this gem to open a json URL
+require 'open-uri'
 
 get('/') do
   "
