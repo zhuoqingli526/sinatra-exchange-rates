@@ -1,6 +1,6 @@
 # sinatra-exchange-rates
 
-Target: http://dashboards.matchthetarget.com/
+Target: http://exchange-rates.matchthetarget.com/
 
 1. `bin/setup`
 2. `bin/dev`
