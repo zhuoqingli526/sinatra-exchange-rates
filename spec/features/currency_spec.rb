@@ -1,5 +1,3 @@
-require "rails_helper"
-
 describe "root URL" do
 
   it "has a level one heading with the text 'Currency pairs'", points: 1 do
