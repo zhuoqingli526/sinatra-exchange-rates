@@ -35,7 +35,7 @@ RSpec.configure do |config|
       with(headers: {
           'Connection'=>'close',
           'Host'=>'api.exchangerate.host',
-          'User-Agent'=>'http.rb/5.1.1'
+          'User-Agent'=>"http.rb/#{HTTP::VERSION}"
            }).
         to_return(status: 200, body: api_response, headers: {})
   end
@@ -56,7 +56,7 @@ RSpec.configure do |config|
     with(headers: {
         'Connection'=>'close',
         'Host'=>'api.exchangerate.host',
-        'User-Agent'=>'http.rb/5.1.1'
+        'User-Agent'=>"http.rb/#{HTTP::VERSION}"
          }).
       to_return(status: 200, body: cup_to_svc, headers: {})
 
@@ -64,7 +64,7 @@ RSpec.configure do |config|
       with(headers: {
           'Connection'=>'close',
           'Host'=>'api.exchangerate.host',
-          'User-Agent'=>'http.rb/5.1.1'
+          'User-Agent'=>"http.rb/#{HTTP::VERSION}"
            }).
         to_return(status: 200, body: cup_to_svc, headers: {})
   end
