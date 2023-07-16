@@ -71,7 +71,7 @@ describe "/[CURRENCY SYMBOL]" do
   
   describe "/[CURRENCY SYMBOL]" do
 
-    it "has a link with the text, 'Convert 1 X to Y...', to '/X/Y', for each currency symbol", points: 1, hint("copy_must_match") do
+    it "has a link with the text, 'Convert 1 X to Y...', to '/X/Y', for each currency symbol", points: 1 do
       
       visit "/TMT"
     
