@@ -60,7 +60,7 @@ describe "/[CURRENCY SYMBOL]" do
     visit "/TMT"
 
     expect(page).to have_tag("a", :with => { :href => "/" }, :text => /back/i),
-      "Expected to find <a> tag with the text 'back' and an href='/', but didnt' find one."
+      "Expected to find <a> tag with the text 'back' and an href='/', but did not find one."
   end
 end
 
@@ -69,10 +69,10 @@ describe "/[CURRENCY SYMBOL]" do
     visit "/TMT"
 
     expect(page).to have_tag("a", :with => { :href => "/TMT/AMD" }, :text => /Convert\s+1\s+TMT\s+to\s+AMD/i),
-      "Expected page to have a link with the text, 'Convert 1 TMT to AMD...', with an href='/TMT/AMD', but didnt' find one."
+      "Expected page to have a link with the text, 'Convert 1 TMT to AMD...', with an href='/TMT/AMD', but did not find one."
 
     expect(page).to have_tag("a", :with => { :href => "/TMT/AOA" }, :text => /Convert\s+1\s+TMT\s+to\s+AOA/i),
-      "Expected page to have a link with the text, 'Convert 1 TMT to AOA...', with an href='/TMT/AOA', but didnt' find one."
+      "Expected page to have a link with the text, 'Convert 1 TMT to AOA...', with an href='/TMT/AOA', but did not find one."
   end
 end
 
