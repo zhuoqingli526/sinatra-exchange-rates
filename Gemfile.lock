@@ -50,7 +50,7 @@ GEM
     ffi-compiler (1.0.1)
       ffi (>= 1.0.0)
       rake
-    grade_runner (0.0.9)
+    grade_runner (0.0.10)
       activesupport (>= 2.3.5)
       faraday-retry (~> 1.0.3)
       octokit (~> 5.0)
